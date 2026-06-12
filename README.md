@@ -55,21 +55,21 @@ python main.py
 
 ## ⚙️ Конфигурация (.env)
 
-# ==================== Telegram API ====================
+# ===== Telegram API =====
 
 Получить на https://my.telegram.org/apps
 API_ID=
 API_HASH=
 PHONE=
 
-# ==================== База данных PostgreSQL ====================
+# ===== База данных PostgreSQL =====
 
 DB_HOST=localhost
 DB_USER=postgres
 DB_PASSWORD=
 DB_NAME=telegram_mirror
 
-# ==================== S3 хранилище (опционально) ====================
+# ===== S3 хранилище (опционально) =====
 
 Для загрузки медиафайлов в облако:
 
@@ -82,13 +82,13 @@ AWS_SECRET_ACCESS_KEY=
 S3_UPLOAD_ON_FINISH=true
 S3_MAX_QUEUE_SIZE=1000
 
-# ==================== Настройки пула соединений ====================
+# ===== Настройки пула соединений =====
 
 POOL_MIN_SIZE=5
 POOL_MAX_SIZE=20
 POOL_COMMAND_TIMEOUT=60
 
-# ==================== S3 Recovery ====================
+# ===== S3 Recovery =====
 S3_RECOVERY_BATCH_SIZE=50
 
 ## 📁 Структура проекта
