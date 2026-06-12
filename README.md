@@ -53,20 +53,23 @@ python -c "import asyncio; from db_module import init_db; asyncio.run(init_db())
 5. Запустите программу
 python main.py
 
-##⚙️ Конфигурация (.env)
+## ⚙️ Конфигурация (.env)
 
-# Telegram API
+Telegram API
+
 API_ID=12345678
 API_HASH=your_api_hash
 PHONE=+79991234567
 
-# Database
+Database
+
 DB_HOST=localhost
 DB_USER=postgres
 DB_PASSWORD=your_password
 DB_NAME=telegram_mirror
 
-# S3 Storage (опционально, для медиа)
+S3 Storage (опционально, для медиа)
+
 S3_BUCKET=your-bucket
 S3_PUBLIC_URL=https://cdn.yourdomain.com
 S3_ENDPOINT=https://s3.yandexcloud.net
