@@ -61,12 +61,14 @@ API_ID=12345678
 API_HASH=your_api_hash
 PHONE=+79991234567
 
+
 Database
 
 DB_HOST=localhost
 DB_USER=postgres
 DB_PASSWORD=your_password
 DB_NAME=telegram_mirror
+
 
 S3 Storage (опционально, для медиа)
 
@@ -75,3 +77,5 @@ S3_PUBLIC_URL=https://cdn.yourdomain.com
 S3_ENDPOINT=https://s3.yandexcloud.net
 AWS_ACCESS_KEY_ID=your_key
 AWS_SECRET_ACCESS_KEY=your_secret
+
+
