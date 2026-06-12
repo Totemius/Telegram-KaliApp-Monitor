@@ -56,25 +56,23 @@ python main.py
 ## ⚙️ Конфигурация (.env)
 
 # Telegram API
+API_ID=
+API_HASH=
+PHONE=
 
-API_ID=12345678
-API_HASH=your_api_hash
-PHONE=+79991234567
-
-# Database
-
+# База данных
 DB_HOST=localhost
 DB_USER=postgres
-DB_PASSWORD=your_password
+DB_PASSWORD=
 DB_NAME=telegram_mirror
 
-# S3 Storage (опционально, для медиа)
-
-S3_BUCKET=your-bucket
-S3_PUBLIC_URL=https://cdn.yourdomain.com
+# S3 (опционально)
+S3_BUCKET=
+S3_PUBLIC_URL=
 S3_ENDPOINT=https://s3.yandexcloud.net
-AWS_ACCESS_KEY_ID=your_key
-AWS_SECRET_ACCESS_KEY=your_secret
+S3_REGION=ru-central-1
+AWS_ACCESS_KEY_ID=
+AWS_SECRET_ACCESS_KEY=
 
 ## 📁 Структура проекта
 
@@ -105,5 +103,7 @@ AWS_SECRET_ACCESS_KEY=your_secret
 ├── requirements.txt       # Зависимости
 
 └── .env.example           # Пример конфигурации
+
+
 
 
