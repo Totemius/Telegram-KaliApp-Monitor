@@ -216,3 +216,30 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ДОБАВИТЬ ДЛЯ ВАШЕГО ПРОЕКТА:
+
+# Telegram Mirror (специфичные файлы)
+state.json
+state.tmp
+*.session-journal
+
+# Node.js / web-mirror
+web-mirror/node_modules/
+web-mirror/package-lock.json
+web-mirror/.env.mirror
+web-mirror/logs/
+web-mirror/*.log
+
+# Ваши логи (Python)
+logs_*/
+*.log
+
+# Временные файлы
+*.tmp
+*.temp
+*.cache
+
+# S3 и медиа (локальные копии)
+/private/
+/media/
