@@ -78,7 +78,8 @@ AWS_SECRET_ACCESS_KEY=your_secret
 
 ## 📁 Структура проекта
 
-telegram-mirror-system/
+# Telegram-KaliApp-Monitor/
+
 ├── main.py                 # Главное меню и оркестрация
 ├── telegram_client.py      # Работа с Telegram API
 ├── realtime_recorder.py    # Запись в реальном времени
