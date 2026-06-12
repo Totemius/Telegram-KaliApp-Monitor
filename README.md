@@ -150,7 +150,7 @@ S3_RECOVERY_BATCH_SIZE=50
 
 └── .env.example           # Пример конфигурации
 
-## 🎮 Использование
+# 🎮 Использование
 
 После запуска main.py откроется интерактивное меню:
 
@@ -161,7 +161,7 @@ S3_RECOVERY_BATCH_SIZE=50
 5. Импорт в БД
 6. Просмотр и поиск
 
-## 🔄 Архитектура
+# 🔄 Архитектура
 
 1. Telegram API
 2. telegram_client.py + realtime_recorder.py
