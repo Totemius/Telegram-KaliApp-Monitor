@@ -56,7 +56,7 @@ python main.py
 ## ⚙️ Конфигурация (.env)
 
 ==================== Telegram API ====================
-# Получить на https://my.telegram.org/apps
+Получить на https://my.telegram.org/apps
 API_ID=
 API_HASH=
 PHONE=
@@ -68,7 +68,7 @@ DB_PASSWORD=
 DB_NAME=telegram_mirror
 
 ==================== S3 хранилище (опционально) ====================
-# Для загрузки медиафайлов в облако
+Для загрузки медиафайлов в облако
 S3_BUCKET=
 S3_PUBLIC_URL=
 S3_ENDPOINT=https://s3.yandexcloud.net
