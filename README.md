@@ -120,9 +120,9 @@ POOL_COMMAND_TIMEOUT=60
 
 S3_RECOVERY_BATCH_SIZE=50
 
-## 📁 Структура проекта
+# 📁 Структура проекта
 
-# Telegram-KaliApp-Monitor
+## Telegram-KaliApp-Monitor
 
 ├── main.py                 # Главное меню и оркестрация
 
