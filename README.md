@@ -76,4 +76,21 @@ S3_ENDPOINT=https://s3.yandexcloud.net
 AWS_ACCESS_KEY_ID=your_key
 AWS_SECRET_ACCESS_KEY=your_secret
 
+## 📁 Структура проекта
+
+telegram-mirror-system/
+├── main.py                 # Главное меню и оркестрация
+├── telegram_client.py      # Работа с Telegram API
+├── realtime_recorder.py    # Запись в реальном времени
+├── db_module.py           # Работа с PostgreSQL
+├── s3_uploader.py         # Загрузка медиа в S3
+├── s3_recovery.py         # Восстановление пропущенных загрузок
+├── process_event_queue.py # Фоновая обработка (NER, ключевые слова)
+├── import_module.py       # Массовый импорт сообщений
+├── config.py              # Конфигурация
+├── logger.py              # Логирование
+├── utils.py               # Вспомогательные функции
+├── requirements.txt       # Зависимости
+└── .env.example           # Пример конфигурации
+
 
